@@ -185,15 +185,20 @@ console.log('Topic: Functions');
 
 
 // Task 12. Function as a Result
-// RU: Создайте функцию copyright, которая должна возвращать другую функцию с
-//     одним параметром. Возращаемая функция должна прибавлять знак © ('\u00A9')
-//     вначале своего параметра и возвращать результат. Объявите этот знак в функции copyright.
+// RU: Создайте функцию copyright с одним параметром - значок копирайта, которая должна возвращать другую функцию с
+//     одним параметром. Возращаемая функция должна прибавлять знак © ('\u00A9') (в случае если он был передан в copyright функцию 
+//     или как значение по умолчанию внутри функции, если параметр не был передан)
+//     вначале своего параметра и возвращать результат. 
 //     Тестовые данные:
+//     console.log( copyright('\u00A1')('EPAM') ); result = ¡ EPAM.
+//     console.log( copyright('\u00A9')('EPAM') ); result = © EPAM.
 //     console.log( copyright()('EPAM') ); result = © EPAM.
 // EN: Create a function copyright, which ahould return anther function with one parameter.
-//     This returned function should prepend sign © ('\u00A9') to its parameter and
-//     return the result. Declare the sign © ('\u00A9') inside copyright function.
+//     This returned function should prepend sign © ('\u00A9') (in case it was passed to the copyright function 
+//     or as a default value inside the function if the parameter was not passed) to its parameter and return the result. 
 //     Test Data:
+//     console.log( copyright('\u00A1')('EPAM') ); result = ¡ EPAM.
+//     console.log( copyright('\u00A9')('EPAM') ); result = © EPAM.
 //     console.log( copyright()('EPAM') ); result = © EPAM.
 
 // Task 13. Function as a Result
