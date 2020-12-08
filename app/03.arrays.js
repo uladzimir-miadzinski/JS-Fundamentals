@@ -52,10 +52,10 @@ console.log('Topic: Arrays');
 //     This string should contain all elements from an array separated by certain delimeter.
 
 // Task 07
-// RU: Создать массив чисел от 1 до 20 в случайном порядке.
+// RU: Создать массив 20 чисел с случайными значениями от 0 до 100.
 //     Отcортировать массив по возрастанию. Вывести его в консоль.
 //     Получить массив, отсортрованный в обратном порядке, и вывести его в консоль.
-// EN: Create an array of numbers in the range from 1 to 20 in random order.
+// EN: Create an array of length 20 with random numbers in range from 0 to 100.
 //     Sort this array in ascending order. Display it in the console.
 //     Create a copy of the previous array in reverse order. Disply it in the console.
 
