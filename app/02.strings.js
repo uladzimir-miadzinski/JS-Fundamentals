@@ -24,10 +24,11 @@ console.log('Topic: Strings');
 
 // Task 03. includes
 // RU: Напишите код, который выводит в консоль true, если строка str содержит
-//     'viagra' или 'XXX', а иначе false.
-//     Тестовые данные: 'buy ViAgRA now', 'free xxxxx'
+//     'discount' или 'low price', а иначе false.
+//     Тестовые данные: 'buy now, discount', 'buy now, dIscOUnt', 'take that, low price', 'low take that, prICE'
 // EN: Create a snippet of code which displays the value true in the console
-//     when str contains 'viagra' or 'XXX', otherwise it displays false.
+//     when str contains 'discount' или 'low price', otherwise it displays false.
+//     Test data: 'buy now, discount', 'buy now, dIscOUnt', 'take that, low price', 'low take that, prICE'
 
 // Task 04. includes + index
 // RU: Проверить, содержит ли строка второе вхождение подстроки,
